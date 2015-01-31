@@ -133,34 +133,34 @@ static const uint8_t TIMEAGO_BUFFER_SIZE = 10;
 // DO NOT USE NEGATIVE NUMBERS OR DECIMAL POINTS OR ANYTHING OTHER THAN A NUMBER
 
 // BG Ranges, MG/DL
-static const uint16_t SPECVALUE_BG_MGDL = 20;
+static const uint16_t SPECVALUE_BG_MGDL = 30;
 static const uint16_t SHOWLOW_BG_MGDL = 40;
-static const uint16_t HYPOLOW_BG_MGDL = 55;
+static const uint16_t HYPOLOW_BG_MGDL = 50;
 static const uint16_t BIGLOW_BG_MGDL = 60;
-static const uint16_t MIDLOW_BG_MGDL = 70;
-uint16_t LOW_BG_MGDL = 80;
+static const uint16_t MIDLOW_BG_MGDL = 65;
+uint16_t LOW_BG_MGDL = 70;
 
-uint16_t HIGH_BG_MGDL = 180;
-uint16_t MIDHIGH_BG_MGDL = 240;
-uint16_t BIGHIGH_BG_MGDL = 300;
-static const uint16_t SHOWHIGH_BG_MGDL = 400;
+uint16_t HIGH_BG_MGDL = 150;
+uint16_t MIDHIGH_BG_MGDL = 200;
+uint16_t BIGHIGH_BG_MGDL = 250;
+static const uint16_t SHOWHIGH_BG_MGDL = 300;
 
 // BG Ranges, MMOL
 // VALUES ARE IN INT, NOT FLOATING POINT, LAST DIGIT IS DECIMAL
 // FOR EXAMPLE : SPECVALUE IS 1.1, BIGHIGH IS 16.6
 // ALWAYS USE ONE AND ONLY ONE DECIMAL POINT FOR LAST DIGIT
 // GOOD : 5.0, 12.2 // BAD : 7 , 14.44
-static const uint16_t SPECVALUE_BG_MMOL = 11;
-static const uint16_t SHOWLOW_BG_MMOL = 23;
-static const uint16_t HYPOLOW_BG_MMOL = 30;
+static const uint16_t SPECVALUE_BG_MMOL = 16;
+static const uint16_t SHOWLOW_BG_MMOL = 22;
+static const uint16_t HYPOLOW_BG_MMOL = 27;
 static const uint16_t BIGLOW_BG_MMOL = 33;
-static const uint16_t MIDLOW_BG_MMOL = 39;
-uint16_t LOW_BG_MMOL = 44;
+static const uint16_t MIDLOW_BG_MMOL = 36;
+uint16_t LOW_BG_MMOL = 39;
 
-uint16_t HIGH_BG_MMOL = 100;
-uint16_t MIDHIGH_BG_MMOL = 133;
-uint16_t BIGHIGH_BG_MMOL = 166;
-static const uint16_t SHOWHIGH_BG_MMOL = 222;
+uint16_t HIGH_BG_MMOL = 83;
+uint16_t MIDHIGH_BG_MMOL = 110;
+uint16_t BIGHIGH_BG_MMOL = 138;
+static const uint16_t SHOWHIGH_BG_MMOL = 166;
 
 // BG Snooze Times, in Minutes; controls when vibrate again
 // RANGE 0-240
